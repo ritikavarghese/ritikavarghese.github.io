@@ -1,0 +1,216 @@
+body {
+    background-color: #000000;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 3px;
+}
+
+.nav-link {
+  margin-right: 30px;
+}
+
+.navWord::selection {
+  background-color: #A98952;
+  color: #000000;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+#spacing {
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+.navbar a::after {
+  content: "";
+  background-color: #A98952;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.35s ease;
+}
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+
+
+h5 {
+  font-size: 120px;
+  letter-spacing: 20px;
+  line-height: 90%;
+}
+
+.dash {
+    color:blueviolet;
+    margin-bottom: 2px;
+
+}
+
+.text-overlay {
+  padding-bottom: 50px;
+}
+
+.topText {
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 10%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bottomText {
+  font-size: 60px;
+  letter-spacing: 7px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-square {
+  border-radius: 0; 
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+#crime {
+  margin-right: 80px;
+}
+
+.murder1 {
+  color:#A98952;
+  outline-color: #8C7547;
+}
+
+.murder2 {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.7),  
+                  1px -1px 0 rgb(140, 117, 71, 0.7),
+                 -1px  1px 0 rgb(140, 117, 71, 0.7),
+                  1px  1px 0 rgb(140, 117, 71, 0.7);
+  color:#000000
+}
+
+.murder3 {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.5),  
+                  1px -1px 0 rgb(140, 117, 71, 0.5),
+                 -1px  1px 0 rgb(140, 117, 71, 0.5),
+                  1px  1px 0 rgb(140, 117, 71, 0.5);
+  color:#000000
+}
+
+.murder4 {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.35),  
+                  1px -1px 0 rgb(140, 117, 71, 0.35),
+                 -1px  1px 0 rgb(140, 117, 71, 0.35),
+                  1px  1px 0 rgb(140, 117, 71, 0.35);
+  color:#000000
+}
+
+.murder5 {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.2),  
+                  1px -1px 0 rgb(140, 117, 71, 0.2),
+                 -1px  1px 0 rgb(140, 117, 71, 0.2),
+                  1px  1px 0 rgb(140, 117, 71, 0.2);
+  color:#000000
+}
+
+.murder6 {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.1),  
+                  1px -1px 0 rgb(140, 117, 71, 0.1),
+                 -1px  1px 0 rgb(140, 117, 71, 0.1),
+                  1px  1px 0 rgb(140, 117, 71, 0.1);
+  color:#000000
+}
+
+.suspect::selection {
+  background-color: transparent;
+}
+
+.topText::selection {
+  background-color: #A98952; 
+  color: black; 
+}
+
+.bottomText::selection {
+  background-color: #A98952; 
+  color: black; 
+}
+
+br::selection {
+  background-color:transparent; 
+  color: transparent; 
+}
+
+.murder1::selection {
+  background-color: black;
+  color:#A98952;
+}
+
+.murder2::selection {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.7),  
+                  1px -1px 0 rgb(140, 117, 71, 0.7),
+                 -1px  1px 0 rgb(140, 117, 71, 0.7),
+                  1px  1px 0 rgb(140, 117, 71, 0.7);
+  color:#000000
+}
+
+.murder3::selection {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.5),  
+                  1px -1px 0 rgb(140, 117, 71, 0.5),
+                 -1px  1px 0 rgb(140, 117, 71, 0.5),
+                  1px  1px 0 rgb(140, 117, 71, 0.5);
+  color:#000000
+}
+
+.murder4::selection {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.35),  
+                  1px -1px 0 rgb(140, 117, 71, 0.35),
+                 -1px  1px 0 rgb(140, 117, 71, 0.35),
+                  1px  1px 0 rgb(140, 117, 71, 0.35);
+  color:#000000
+}
+
+.murder5::selection {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.2),  
+                  1px -1px 0 rgb(140, 117, 71, 0.2),
+                 -1px  1px 0 rgb(140, 117, 71, 0.2),
+                  1px  1px 0 rgb(140, 117, 71, 0.2);
+  color:#000000
+}
+
+.murder6::selection {
+  text-shadow: -1px -1px 0 rgb(140, 117, 71, 0.1),  
+                  1px -1px 0 rgb(140, 117, 71, 0.1),
+                 -1px  1px 0 rgb(140, 117, 71, 0.1),
+                  1px  1px 0 rgb(140, 117, 71, 0.1);
+  color:#000000
+}
+
+
+
+
