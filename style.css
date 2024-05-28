@@ -63,6 +63,19 @@ body {
   border-radius: 10px; 
 }
 
+.founder {
+  color:#ffffff;
+  font-family: "Prata", serif;
+}
+
+.projectImg {
+  width: 550px;
+}
+
+.founderText {
+  color: #dddddd;
+}
+
 .myName {
   font-family: "Edu NSW ACT Foundation", cursive;
   color: #ffffff;
@@ -81,6 +94,7 @@ body {
   box-shadow: 0 -10px 5px rgba(0, 0, 0, 0.5);
   padding: 0px;
   border-radius: 0px;
+  z-index: 3;
 }
 
 .verticalLineContainer {
@@ -190,6 +204,7 @@ h5 {
 
 .face {
   width: 350px;
+  z-index: 2;
 }
 
 .btn-square {
@@ -222,6 +237,7 @@ span::selection {
 
 .position-relative {
   position: relative;
+  margin-left: ;
 }
 
 .fa-linkedin-square {
