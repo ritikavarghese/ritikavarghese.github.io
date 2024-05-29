@@ -15,6 +15,10 @@ body {
   padding: 10px 15px; 
 }
 
+.git {
+  font-size: 20px;
+}
+
 .navWord::selection {
   background-color: black;
   color: blueviolet;
@@ -66,6 +70,16 @@ body {
 .founder {
   color:#ffffff;
   font-family: "Prata", serif;
+}
+
+li {
+  color:#ffffff
+}
+
+.title {
+  color:#ffffff;
+  font-family: "Prata", serif;
+  font-size: 20px;
 }
 
 .projectImg {
